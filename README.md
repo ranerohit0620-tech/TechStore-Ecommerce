@@ -1,2 +1,16 @@
 # TechStore-Ecommerce
 My first web development project
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechStore Ecommerce</title>
+</head>
+<body>
+
+  <h1>Welcome to TechStore Ecommerce</h1>
+  <p>My First Web Development Project</p>
+
+</body>
+</html>
