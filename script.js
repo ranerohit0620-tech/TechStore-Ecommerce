@@ -1,10 +1,14 @@
-let cart = 0;
+const search = document.getElementById("search");
 
-const buttons = document.querySelectorAll(".card button");
+search.addEventListener("keyup", function () {
+    let value = search.value.toLowerCase();
+    let cards = document.querySelectorAll(".card");
 
-buttons.forEach(button => {
-    button.addEventListener("click", () => {
-        cart++;
-        alert("Product Added to Cart!\nTotal Items: " + cart);
+    cards.forEach(card => {
+        if (card.innerText.toLowerCase().includes(value)) {
+            card.style.display = "block";
+        } else {
+            card.style.display = "none";
+        }
     });
 });
