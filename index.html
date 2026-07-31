@@ -13,20 +13,20 @@
 
 <input type="text" id="search" placeholder="Search Products...">
 <nav>
-<a href="#">Home</a>
-<a href="#">Products</a>
+<a href="#>Home"</a>
+<a href="#>Products"</a>
 <a href="#">Cart 🛒</a>
-<a href="#">Contact</a>
+<a href="#>Contact"</a>
 </nav>
 </header>
 
-<section class="hero">
+<section class="hero" id="home">
 <h1>Welcome to TechStore</h1>
 <p>Best Deals on Mobiles, Laptops & Accessories</p>
-<button>Shop Now</button>
+<button onclick="location.href='#products'">Shop Now</button>
 </section>
 
-<section class="products">
+<section class="products" id="products">
 <h2>Featured Products</h2>
 
 <div class="card">
@@ -41,6 +41,11 @@
 <button>Add to Cart</button>
 </div>
 
+</section>
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: techstore@gmail.com</p>
+    <p>Phone: +91 9876543210</p>
 </section>
 <script src="script.js"></script>
 </body>
