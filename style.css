@@ -91,3 +91,31 @@ footer{
     padding:15px;
     margin-top:30px;
 }
+.categories{
+    padding:40px 20px;
+    text-align:center;
+}
+
+.category-list{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-top:20px;
+}
+
+.category{
+    background:#fff;
+    padding:20px 30px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.15);
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.category:hover{
+    transform:scale(1.05);
+    background:#007bff;
+    color:white;
+}
